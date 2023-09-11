@@ -12,7 +12,7 @@
 ## ncmpcpp.
 ##
 #
-#ncmpcpp_directory = ~/.config/ncmpcpp
+ncmpcpp_directory = ~/.config/ncmpcpp
 #
 ##
 ## Directory for storing downloaded lyrics. It defaults to ~/.lyrics since other
@@ -31,7 +31,7 @@ mpd_port = 6600
 #
 ## Needed for tag editor and file operations to work.
 ##
-mpd_music_dir = ~/music
+mpd_music_dir = ~/Music
 #
 #mpd_crossfade_time = 5
 #
@@ -113,7 +113,7 @@ current_item_inactive_column_prefix = $b$(white)$r
 now_playing_prefix = "$b$3"
 now_playing_suffix = "$b$9"
 main_window_color = white
-execute_on_song_change = notify-send "♫ Now Playing" "$(mpc current)"
+execute_on_song_change = $HOME/scripts/songinfo.sh
 
 playlist_display_mode = "classic"
 user_interface = classic

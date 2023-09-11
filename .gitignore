@@ -25,3 +25,7 @@ ncmpcpp/*
 rofi/*
 !rofi/config.rasi
 !rofi/mine.rasi
+
+!dunst/
+dunst/*
+!dunst/dunstrc
